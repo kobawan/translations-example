@@ -1,0 +1,21 @@
+.app {
+  background-color: #3A3335;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  .langButton {
+    margin: 0.25em;
+    padding: 0.5em;
+    font-weight: bold;
+  }
+}
